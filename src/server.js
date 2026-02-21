@@ -52,7 +52,7 @@ app.use("/api/feedback", feedbackRoutes);
 //  /api/contact
 app.use("/api/contact", contactRoutes);
 
-app.use("api/hobby", hobbyRoutes);
+app.use("/api/hobby", hobbyRoutes);
 
 const PORT = 4000;
 app.listen(PORT, () =>
